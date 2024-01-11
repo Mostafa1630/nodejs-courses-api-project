@@ -1,1 +1,0 @@
-require('crypto').randomBytes(32).toString('hex')   ===> to return random 32 bytes , (write this in node in pc)
