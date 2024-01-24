@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const validator = require('validator')
 const userRoles = require('../utils/userRoles');
 
-const usersSchema = mongoose.Schema({
+const usersSchema =new mongoose.Schema({
   fristName:{
     type:String,
     required:true
